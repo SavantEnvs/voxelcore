@@ -1,0 +1,1 @@
+tp entity:sel=$entity.id x:num~pos.x y:num~pos.y z:num~pos.z

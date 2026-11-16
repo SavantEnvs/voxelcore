@@ -1,0 +1,1 @@
+rule.set name:str value:bool

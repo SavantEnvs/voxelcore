@@ -1,0 +1,1 @@
+fragment.place file:str x:num~pos.x rotation:int=0

@@ -1,0 +1,9 @@
+project: savantenvs/voxelcore
+target: fuzz_command_scheme
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_command_scheme/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_command_scheme
+    libfuzzer: true
+    timeout: 5

@@ -1,0 +1,9 @@
+name: test
+version: 1
+items:
+  - a
+  - b
+nested:
+  key: value
+  flag: true
+  num: 3.5
